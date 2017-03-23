@@ -24,6 +24,6 @@
 - (IBAction)button:(id)sender {
     
     UIButton *click=sender;
-    NSLog(@"%@ ",click.titleLabel.text);
+    NSLog(@"My Label %@ ",click.titleLabel.text);
 }
 @end
